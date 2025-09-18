@@ -1,46 +1,106 @@
 <!doctype html>
 <html>
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
-<title>key lime pie recipe</title>
+<title>Key Lime Pie Recipe</title>
 	<style>
 		body{
-			background-color: lemonchiffon;
-			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+			background-color:#D0E499;
+			font-family: "Bricolage Grotesque", sans-serif;
+			color:#8D203C
+			
 		}
 		
-		div{width:250px;
-height:285px;
-background-color:#FFD7D7;
-border: 3px dashed #FFFBD1;
-margin:10px;
+		h1{
+			display:inline-block;
+			font-size:64px;
+			color:#EEA1CB
+		
+		}
+		
+		h2{text-align: center;
+		font-size:32px;
+			color:#606E0E
+		}
+		
+		div{
 			padding:10px;
 display:inline-block;
 box-sizing:border-box;
-border-radius:30px 0;
 vertical-align:top;}
 		
+		.logo{
+			display: inline-block
+		}
+		
+		.header{background-color:white;
+		border:7px dotted;
+		border-color: #C1E16D;
+		width:100%;
+			margin: auto;
+			display:block;
+		}
+		
+		.keylimepic{
+			display: block;
+			margin: auto;
+			width:552px;
+			border: 5px dashed;
+			padding:1px;
+			border-color: #FFD7D7;
+		}
+		
 		.ingredients{
-		 width:240px;
-		height:220px;
+		 box-sizing:border-box;
+			width:35%;
+		background-color:#FFD7D7;
+border: 4px dashed #FFFBD1;
+margin:10px;
+			border-radius:30px 0;
+display:inline-block;
 		}
 		
 		.steps{
-			width:360px;
-		height:275px;
+			box-sizing:border-box;
+			width:58%;
+		background-color:#FFD7D7;
+border: 4px dashed #FFFBD1;
+margin:10px;
+	border-radius:30px 0;
+display:inline-block;
 		}
+		
+		.footer{color: #8D203C;
+				width:100%;
+			display:block;
+			margin:40px 0px 0px 0px;
+			padding:5px;
+		}
+		
+		.wrapper{background-color:#FFFACD;}
+		
 	</style>
 </head>
 
 <body>
+	<div class="wrapper">
 	<wrapper>
 		<header>
-			<img src="yummybites-logo.png" alt="yummybites logo" width="200px"> 
+			<div class="header">
+			<div class="logo">
+			<img src="yummybites-logo.png" alt="yummybites logo" width="200px">
+			</div> 
 		<h1>YummyBites&nbsp;</h1>
+			</div>
 		</header>
 		<main>
 			<h2>Key Lime Pie</h2>
-			<img src="key-lime-pie.jpg" alt="key lime pie" width="500">
+			<div class="keylimepic">
+			<img src="key-lime-pie.jpg" alt="key lime pie" width="540">
+			</div>
 				 <p>This easy key lime pie recipe is the 1999 American Pie Council's National Pie Championship's 1st place winner in the Quick and Easy Category. If you like, garnish each piece with a slice of lime and a dollop of whipped cream or whipped topping.</p>
 			<div class="ingredients">
 			<section>
@@ -68,9 +128,12 @@ vertical-align:top;}
 			</div>
 		</main>
 		<footer>
+			<div class="footer">
 			<p>© 2025, Valeria Vegas.</p>
-<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category. :) </p>
+<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category. </p>
+			</div>
 		</footer>
 	</wrapper>
+	</div>
 </body>
 </html>
