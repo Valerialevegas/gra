@@ -1,0 +1,336 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color: black;
+	
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+	
+	
+}
+main {
+    height: 600px;
+	background-size: cover;
+    text-align: center;	
+}
+
+nav {
+    background-color: rgba(0,0,0,0.84);
+    width: 100%;
+}
+
+nav a li {
+    padding: 10px 40px;
+    display: inline-block;
+    color: rgba(255,255,255,1.00);
+	
+}
+
+nav a li:hover {
+   background-image: url("umjistare.gif");
+	height: 26px;
+}
+
+.homebutton:hover {
+   background-image: url("vivizbw.gif");
+	height: 26px;
+	background-size: 120px;
+}
+
+.newsbutton:hover {
+   background-image: url("umjistare.gif");
+	height: 26px;
+}
+
+.musicbutton:hover {
+   background-image: url("ehbreath.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+.videosbutton:hover {
+   background-image: url("vivizlala.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+.tourbutton:hover {
+   background-image: url("vvtour.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+
+.gallerybutton:hover {
+   background-image: url("vvgallery.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+
+.mailingbutton:hover {
+   background-image: url("2eunbi.gif");
+	height: 26px;
+	background-size: 120px
+}
+
+
+.merchbutton:hover {
+   background-image: url("bopbop.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+.blogsbutton:hover {
+   background-image: url("sinbf.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+.privacybutton:hover {
+   background-image: url("vvred.gif");
+	height: 26px;
+	background-size: cover;
+}
+
+footer  {
+    color: rgba(203,193,231,0.82);
+}
+
+
+h1 {
+    color: white;
+    display: block;
+    max-height: none;
+    margin: opx;
+    text-align: center;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+img{
+	margin-top:-20px;
+	}
+
+.logo {
+    text-align: center;
+    display: inline;
+}
+
+.viviznews1 {
+    display: inline;
+    height: 500px;
+    margin: 15px;
+    width: 290px;
+}
+.viviznews2 {
+    width: 290px;
+    margin: 15px;
+    height: 500px;
+}
+.viviznews3 {
+    width: 290px;
+    margin: 15px;
+    height: 500px;
+}
+.viviznews4 {
+    width: 290px;
+    margin: 15px;
+    height: 500px;
+}
+header {
+    text-align: center;
+}
+
+iframe{
+    padding: 0px 10px;
+    display: inline-block;
+}
+.homebutton {
+}
+.newsbutton {
+}
+.musicbutton {
+}
+.videosbutton {
+}
+.tourbutton {
+}
+.gallerybutton {
+}
+.mailingbutton {
+}
+.merchbutton {
+}
+.blogsbutton {
+}
+.privacybutton {
+}
+
+
+tourvideos{
+	display: inline-block;
+}
+
+body wrapper main {
+	display: block;
+}
+
+tourposter{
+	display:inline-block;
+}
+.tourposter img {
+	display: inline-block;
+
+}
+
+
+
+.tourteaser {
+	display: block;
+}
+.tourvideos .tourad {
+	display: block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin-top: 0px;
+}
+
+
+.container{
+	display: flex
+}
+
+
+.eunhabop:hover{
+   background-image: url("umjibop.jpg")
+}
+
+
+.image-hover-container-eunha {
+  width: 420px;
+  height: 520px; 
+  background-image: url("ehbop.jpg");
+  background-size: cover; 
+  background-position: center; 
+  transition: background-image 0.5s ease-in-out;
+	display: inline-block;
+}
+
+.image-hover-container-eunha:hover {
+  background-image: url("ehbop2.jpeg"); 
+}
+
+
+
+.image-hover-container-umji {
+  width: 420px;
+  height: 520px; 
+  background-image: url("umjibop.jpg");
+  background-size: cover; 
+  background-position: center; 
+  transition: background-image 0.5s ease-in-out;
+	display: inline-block;
+}
+
+.image-hover-container-umji:hover {
+  background-image: url("umjibop2.jpg"); 
+}
+
+
+.image-hover-container-sinb {
+  width: 420px;
+  height: 520px; 
+  background-image: url("sinbbop.jpg");
+  background-size: cover; 
+  background-position: center; 
+  transition: background-image 0.5s ease-in-out;
+	display: inline-block;
+}
+
+.image-hover-container-sinb:hover {
+  background-image: url("sinbbop2.jpg"); 
+}
+.email {
+	width: 320px;
+	height: 40px;
+	border-radius: 10px;
+	display: block;
+	background-color: #FFFFFF;
+	float: none;
+	text-align: center;
+	font-size: large;
+	margin-left: 80px;
+}
+
+.container2 {
+	display: flex;
+	margin-left: 50px;
+}
+.container2 .emailtext {
+	color: #A49CBB;
+	text-align: center;
+	font-size: 50px;
+	display: block;
+	margin-left: 100px;
+	-webkit-box-shadow: 0px 0px #25056C;
+	box-shadow: 0px 0px #25056C;
+}
+.container2 .emailtext .signup {
+	font-size: x-large;
+	background-color: #A49CBB;
+	color: #FFFFFF;
+}
+
+.container2 .vivizmail {
+	-webkit-box-shadow: 300px 0 5px 5px #E9E8EB;
+	box-shadow: 300px 0 5px 5px #E9E8EB;
+}
+
+
+
+
+.vivizmail {
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.signup {
+	border: medium;
+	border-color: #321148;
+	padding: 10px;
+	border-radius: 16px;
+}
+wrapper main h4 {
+	color: #FFFFFF;
+	font-size: x-large;
+	text-align: left;
+	margin-left: 50px;
+}
+.videosmain {
+}
+
+.videosmain {
+	color: #FFFFFF;
+}
+wrapper main p {
+	color: #FFFFFF;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: large;
+}
+.h2priv {
+	color: #A49CBB;
+	font-size: xx-large;
+}
+
+.h2priv {
+}
