@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Travel Buddy</title>
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: rgba(212,236,255,1.00);
+    background: url("japanspring.jpeg");
+    background-size: cover;
+}
+wrapper {
+    width: 1200px;
+    margin: auto;
+    display: block;
+}
+header {
+    height: 100px;
+    background-color: rgba(255,236,179,1.00);
+}
+#Tabs1 img {
+    width: 100px;
+    height: 100px;
+}
+#Tabs1 ul p {
+    text-align: center;
+}
+#Tabs1 {
+    background-image: none;
+    background-color: rgba(0,0,0,0.40);
+}
+#Tabs1 .ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-default.ui-corner-top {
+    background-image: -webkit-linear-gradient(270deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    background-image: -moz-linear-gradient(270deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    background-image: -o-linear-gradient(270deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    background-image: linear-gradient(180deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    border-radius: 8px;
+    background-color: transparent;
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+	
+
+
+}
+.search {
+	background-image: -webkit-linear-gradient(270deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    background-image: -moz-linear-gradient(270deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    background-image: -o-linear-gradient(270deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    background-image: linear-gradient(180deg,rgba(159,223,255,1.00) 0%,rgba(255,255,255,0.43) 99.88%);
+    border-radius: 8px;
+    background-color: transparent;
+}
+	
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<wrapper>
+  <header>Content for New header Tag Goes Here</header>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="iairplane.png" alt="" width="50" height="50">
+        <p>Flights</p>
+      </a></li>
+      <li><a href="#tabs-2"><img src="ihotel.png" alt="" width="50" height="50">
+        <p>Hotels</p>
+      </a></li>
+      <li><a href="#tabs-3"><img src="icar.png" alt="" width="50" height="50">
+        <p>Cars</p>
+
+      </a></li>
+      <li><a href="#tabs-4"><img src="icruise.png" alt="" width="50" height="50">
+        <p>Cruises</p>
+      </a></li>
+      <li><a href="#tabs-5"><img src="icamera.png" alt="" width="50" height="50">
+        <p>Things To Do</p>
+      </a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Flights</p>
+		<input type="text" placeholder="Leaving From">
+		<input type="date">
+		<input type="text" placeholder="Going To">
+		<input type="date">
+		<select>
+		  <option value="0" selected="selected">Number of travelers</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		</select>
+		<input type="submit" class="search" value="Search">
+    </div>
+    <div id="tabs-2">
+      <p>Hotels</p>
+		<input type="text" placeholder="Where To?">
+		<input type="date">
+		<input type="date">
+		<select>
+		  <option value="0" selected="selected">Number of Travelers</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		</select>
+		<input type="submit" class="search" value="Search">
+		
+    </div>
+    <div id="tabs-3">
+      <p>Cars</p>
+		<input type="text" placeholder="Pick-up Location">
+		<input type="date">
+		<input type="date">
+		
+		<select>
+		  <option value="0" selected="selected">Pick-up Time</option>
+		  <option value="1">6:00 am</option>
+		  <option value="2">8:00am</option>
+		  <option value="3">10:00am</option>
+		  <option value="4">12:00pm</option>
+		  <option value="5">2:00pm</option>
+		  <option value="6">4:00pm</option>
+		  <option value="7">6:00pm</option>
+		  <option value="8">8:00pm</option>
+		</select>
+		
+			<select>
+		  <option value="0" selected="selected">Drop-off Time</option>
+		  <option value="1">6:00 am</option>
+		  <option value="2">8:00am</option>
+		  <option value="3">10:00am</option>
+		  <option value="4">12:00pm</option>
+		  <option value="5">2:00pm</option>
+		  <option value="6">4:00pm</option>
+		  <option value="7">6:00pm</option>
+		  <option value="8">8:00pm</option>
+		</select>
+		<input type="submit" class="search" value="Search">
+		
+    </div>
+    <div id="tabs-4">
+      <p>Cruises</p>
+		<input type="text" placeholder="Where To?">
+		<input type="date">
+		<select>
+		  <option value="0" selected="selected">Number of Travelers</option>
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		</select>
+	  <select>
+	    <option value="0" selected="selected">Duration</option>
+	    <option value="1">1-6 nights</option>
+	    <option value="2">7-14 nights</option>
+	    <option value="3">14+ nights</option>
+	  </select>
+		<input type="submit" class="search" value="Search">
+		
+    </div>
+    <div id="tabs-5">
+      <p>Things To Do</p>
+		<input type="text" value="Where?">
+		<input type="date">
+		<input type="submit" class="search" value="Search">
+		
+    </div>
+  </div>
+  <main>Content for New main Tag Goes Here</main>
+  <footer>Content for New footer Tag Goes Here</footer>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
